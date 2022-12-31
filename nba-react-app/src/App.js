@@ -44,6 +44,8 @@ function App(props) {
       name={player.name}
       team={player.team}
       ppg={player.ppg}
+      apg={player.apg}
+      rpg={player.rpg }
       favourite={player.favourite}
       togglePlayerFav={togglePlayerFav}
     />
