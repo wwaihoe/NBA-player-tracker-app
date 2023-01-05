@@ -9,14 +9,14 @@ function MiniProfile(props) {
     const handleShow = () => setShow(true);
     return (    
         <>
-            <Col xs={4} className="Button" onClick={handleShow}>
-                <div className="p-3 bg-light">
-                    <img src={`/teamlogos/${props.team}.png`} alt={`${props.team}_thumbnail`} width="60"/>
-                    <img src={`/playerthumbnails/${props.id}.png`} alt={`${props.name}_thumbnail`} width="280"/>
+            <Col xs={3} className="bg-light">
+                <div>
+                    <img className="px-sm-1" src={`/teamlogos/${props.team}.png`} alt={`${props.team}_thumbnail`} width="60"/>
+                    <img className="Button" onClick={handleShow} src={`/playerthumbnails/${props.id}.png`} alt={`${props.name}_thumbnail`} width="280"/>
                     <h2 className="MiniProfile-label" htmlFor={props.id}>
                         {props.name}
                     </h2>
-                    <label>
+                    <label className="h6">
                         PPG: {props.ppg}
                     </label>
                     <div className="checkbox">
