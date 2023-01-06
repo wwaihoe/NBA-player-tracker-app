@@ -3,4 +3,4 @@
  
  First React app to learn about the basics of React and Bootstrap
 
-![image](https://user-images.githubusercontent.com/91514179/210052505-283d64bd-a3e5-4f80-8223-1abd60f21946.png)
+![image](https://user-images.githubusercontent.com/91514179/211017366-6ac4e7f4-1409-4c15-b259-5ce23abf8379.png)
